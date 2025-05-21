@@ -35,6 +35,14 @@ A deeper hybrid variant merging **Inception-ResNet v2** modules for multiscale f
 > ⚠️ *Note: Values shown above are from test runs on ImageNet-like datasets. You can fine-tune these architectures on your custom dataset.*
 
 
+##  Confusion Matrix
+
+| **Model Variant**                        | Swim Transformer (Baseline) | Swim Transformer + ResNet | Swim Transformer + Inception-ResNet |
+|-------------------------------------|------------|-----------|------------------|----------------|----------------------|
+| **Confusion Matrix**         | ![image](https://github.com/user-attachments/assets/0bf34f32-d5a5-45a3-be6b-a98f0ba8aea7) | ![image](https://github.com/user-attachments/assets/1b70bb2d-05ed-4c73-a35b-353efd259394) | ![image](https://github.com/user-attachments/assets/e0156df0-d84b-4f87-ae1b-bbae81006864) | 
+
+> ⚠️ *Note: Values shown above are from test runs on ImageNet-like datasets. You can fine-tune these architectures on your custom dataset.*
+
 ##  How to Run (on Colab)
 
 1. Open the corresponding notebook in the `/notebooks` directory.
