@@ -24,7 +24,7 @@ A hybrid model combining the **Swim Transformer** with a **ResNet backbone**, ai
 A deeper hybrid variant merging **Inception-ResNet v2** modules for multiscale feature extraction with Swim’s transformer layers. This model aims for both efficiency and high accuracy across scales.
 
 
-## 🧪 Comparison Table
+##  Comparison Table
 
 | Model Variant                        | Train Loss | Train Accuracy | Test Loss | Test Accuracy | Inference Time (s) |
 |-------------------------------------|------------|-----------|------------------|----------------|----------------------|
