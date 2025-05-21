@@ -11,15 +11,15 @@ Here we are experimenting with different versions of the **Swim Transformer**, a
 
 ## Contents
 
-### 1. 🔹 Swim Transformer
+### 1. Swim Transformer
 
 The baseline architecture inspired by hierarchical vision transformers with local self-attention. It's lightweight and effective for a variety of image classification tasks.
 
-### 2. 🔄 Swim Transformer + ResNet
+### 2. Swim Transformer + ResNet
 
 A hybrid model combining the **Swim Transformer** with a **ResNet backbone**, aiming to improve feature extraction at earlier stages while leveraging the transformer's strength in global reasoning.
 
-### 3. 🌐 Swim Transformer + Inception-ResNet
+### 3. Swim Transformer + Inception-ResNet
 
 A deeper hybrid variant merging **Inception-ResNet v2** modules for multiscale feature extraction with Swim’s transformer layers. This model aims for both efficiency and high accuracy across scales.
 
@@ -35,7 +35,7 @@ A deeper hybrid variant merging **Inception-ResNet v2** modules for multiscale f
 > ⚠️ *Note: Values shown above are from test runs on ImageNet-like datasets. You can fine-tune these architectures on your custom dataset.*
 
 
-## 🚀 How to Run (on Colab)
+##  How to Run (on Colab)
 
 1. Open the corresponding notebook in the `/notebooks` directory.
 2. Enable GPU via **Runtime > Change runtime type > GPU**.
